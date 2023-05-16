@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+  background: #E5E5E5;
+}
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #3B434E;
+  --gray-light: #EBEBEB;
+  --white: #FFFFFF;
+  --primary: #7653FC; /*main color it is not "purple"*/
+  --primary-hover: #6344df;
+  --red: #FC836D;
+  --green: #1DC47E;
+  --green-light: #C8F8E4;
+  --font-family: 'Noto Sans', sans-serif;
+}
+
+#id1 {
+  color: red;
+  font-size: 60px;
+}
+
+.cl2 {
+  color: green;
+}
+
+div.div1 div.div2 div.div3 div.div4 div.div5 div.div6 div.div7 div.div8 div.div9 div.div10 div.div11 p.cl1 {
+  color: yellow;
+}
