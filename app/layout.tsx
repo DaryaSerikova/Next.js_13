@@ -1,7 +1,7 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+// import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -20,7 +20,9 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='anonymous'/>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;700&display=swap" rel="stylesheet"/>
       </head>
-      <body className={inter.className}>{children}</body>
+      {/* <body className={inter.className}>{children}</body> */}
+      <body>{children}</body>
+
     </html>
   )
 }
